@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# IDE
+.idea/
+
+# Local env file (loaded by uv run); keep secrets out of git
+config/.env
