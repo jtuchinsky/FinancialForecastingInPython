@@ -27,6 +27,4 @@ sales_USD = average_sales_price * forecast_units
 print("Next month's forecast sales figure is {:.2f} USD.".format(sales_USD))
 ```
 This summary encapsulates the key learning points from your last lesson, helping you to recall the essential concepts and calculations.
-```
-# Set variables units sold and sales price of the T-shirts (basic and custom)
-```
+
