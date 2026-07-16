@@ -26,13 +26,11 @@ The result is multiplied by the number of days in the financial year; usually, 3
 
 The days payable outstanding, or DPO, ratio, has to do, you might have guessed, with accounts payable, or creditors, a liabilities account. This result is similar to the debtor day ratio, except that it calculates the number of days on average it takes to pay our creditors. For the DPO, the longer the payment period, the better; however, the obligation is only deferred, so it will have to be paid sometime. This gives a company time to make more sales and be in a better position to pay their debt, and thus improve their cash flow position. The formula is: the closing balance creditors divided by the total cost of goods sold multiplied by the number of days in the financial year. 
 
-$$\text{DPO} = \left( \frac{\text{Ending Balance Creditors}}{\text
-{TotalCostOfGoodsSold}} 
-\right) \times \text{Days in Financial Year}$$
+$$\text{DPO} = \left( \frac{\text{Ending Balance Creditors}}{\text{Total Cost of Goods Sold}} \right) \times \text{Days in Financial Year}$$
 
 Remember, for both this ratio and also the debtor days ratio, the results are best compared per industry and specific company, and not looked at in isolation. These ratios can give great insights on a company and its operations and also provide guidance for forecasting.
 
-### Key Takeawys  
+### Key Takeaways
 
 You learned about balance sheet efficiency ratios, which help evaluate a 
 company's financial health and management efficiency. These ratios are crucial for forecasting and understanding how well a company handles its receivables and payables.
@@ -40,9 +38,8 @@ company's financial health and management efficiency. These ratios are crucial f
 - **Debtor Days Ratio:** This ratio calculates the average number of days it 
 takes to receive payment from debtors. A lower ratio is generally better, indicating quicker payment collection.
 
-**Formula:** 
-  $$( \text{Debtor Days} = \frac{\text{Ending Balance of Debtors}}
-  {\text{Sales}} \times \text{Days in Financial Year} )$$
+**Formula:**
+  $$\text{Debtor Days} = \frac{\text{Ending Balance of Debtors}}{\text{Sales}} \times \text{Days in Financial Year}$$
 
 **Example:**
 ```python
@@ -54,9 +51,8 @@ print("The debtor days ratio is {}.".format(ddays_ratio))
 - **Days Payable Outstanding (DPO):** This ratio measures the average number of 
 days a company takes to pay its suppliers. A higher ratio can be beneficial for cash flow but must be managed carefully.
 
-**Formula:**  
-  $$\text{DPO} = \frac{\text{Ending Balance of Creditors}}{\text
-{Total Cost of Goods Sold}} \times \text{Days in Financial Year}$$  
+**Formula:**
+  $$\text{DPO} = \frac{\text{Ending Balance of Creditors}}{\text{Total Cost of Goods Sold}} \times \text{Days in Financial Year}$$
 
 **Example**:  
 ```
