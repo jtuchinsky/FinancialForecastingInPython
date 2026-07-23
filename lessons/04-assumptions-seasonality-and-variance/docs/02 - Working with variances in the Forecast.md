@@ -1,0 +1,1 @@
+The goal is to explore variances in a forecast and how to handle them.
